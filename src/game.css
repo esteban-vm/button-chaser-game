@@ -1,0 +1,50 @@
+@import 'normalize.css';
+
+/* body {
+  background-color: #242424;
+  overflow: hidden;
+} */
+
+#scoreLabel,
+#pageTitle,
+#gameArea,
+#dot {
+  position: absolute;
+}
+
+#scoreLabel,
+#pageTitle,
+#gameArea {
+  left: 0.8rem;
+}
+
+#scoreLabel,
+#pageTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: navy;
+  height: 1.5rem;
+}
+
+#scoreLabel {
+  font-size: 14pt;
+  top: 0.8rem;
+}
+
+#pageTitle {
+  font-size: 24pt;
+  top: 2.1rem;
+}
+
+#gameArea {
+  top: 4.7rem;
+  border: 1px navy solid;
+}
+
+#dot {
+  top: 1.5rem;
+  left: 1.5rem;
+  background-color: navy;
+  width: 4rem;
+  height: 4rem;
+}
